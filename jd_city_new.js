@@ -313,7 +313,7 @@ function city_lotteryAward() {
 function readShareCode() {
   return new Promise(async (resolve) => {
     $.get(
-      { url: `http://transfer.nz.lu/city`, timeout: 10000 },
+      { url: `http://www.baidu.com`, timeout: 10000 },
       (err, resp, data) => {
         try {
           if (err) {
